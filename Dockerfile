@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM quay.io/chronojam/ubuntu
 
 # Install Python.
 RUN \
